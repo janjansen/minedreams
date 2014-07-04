@@ -60,55 +60,6 @@ body {
   background-color:#efefef;
 }
 
-a,a:hover {
-	color:#77CCDD;
-  	text-decoration:none;
-}
-
-.highlight-bk {
-	background-color:#77CCDD;
-    padding:1px;
-    width:100%;
-}
-
-.highlight {
-	color:#77CCDD;
-}
-  
-h3.highlight  {
-	padding-top:13px;
-    padding-bottom:14px;
-  	border-bottom:2px solid #77CCDD;
-}
-
-.navbar {
-	background-color:#77CCDD;
-  	color:#ffffff;
-  	border-radius:0;
-}
-.navbar-nav > li > a {
-  	color:#fff;
-  	padding-left:20px;
-  	padding-right:20px;
-  	border-left:1px solid #66BBCC;
-}
-.navbar-nav > li:last-child > a {
-  	border-right:1px solid #66BBCC;
-}
-
-.navbar-nav li a:hover {
-  	background-color:#66BBCC;
-}
-
-.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
-	color: #000;
-  	opacity:.9;
-}
-
-.navbar-brand {
-	color:#fff;
-}
-
 .accordion-group {
 	border-width:0;
 }
@@ -206,7 +157,6 @@ h3.highlight  {
     overflow: hidden;
     background: #4B4848;
     background-size: cover;
-    background-image: url("http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg");
     background-position: center 16%;
     height: 580px;
     position: relative;
@@ -245,29 +195,66 @@ h3.highlight  {
 .container {
     /*overflow:auto;*/
     margin-top: -300px;
-    background: #fff;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
 }
 #content-header {
     background-color: #000;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
 }
-#content-header .col-md-2 {
-    background-color: #888;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
-    color: #fff;
-}
 #content-header .col-md-7 {
     background-color: #555;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
     color: #fff;
+    border-right: 1px solid #888;
+    border-left: 1px solid #888;
+}
+#content-header .col-md-2 {
+    background-color: #000;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
+    color: #fff;
 }
 #content-header .col-md-3 {
-    background-color: #000;
+    background-color: #888;
     box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
     color: #fff;
 }
 #content-header h1 {
     margin-top: 10px;
     padding-left: 15px;
+}
+.left-col {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
+    background: #fff;
+}
+.center-col {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
+    background: #fff;
+}
+.right-col {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.086);
+    background: #fff;
+}
+#main-content {
+    padding: 10px 20px;
+}
+#main-menu {
+    padding-top: 30px;
+}
+#main-menu > ul { 
+    margin-bottom: 15px;
+}
+#main-menu  li {
+    padding-left: 30px;
+}
+#main-menu ul li {
+    padding-left: 50px;
+}
+
+.address {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 5px 5px 10px;
+    /*border-bottom:  1px solid #ccc;*/
+}
+.h5 {
+    margin-top: 10px;
 }

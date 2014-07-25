@@ -6,18 +6,25 @@
     <title>Bootstrap 3 Template / Theme - Bootable</title>
     <meta name="generator" content="Bootply" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/lightbox.css" rel="stylesheet">
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         .bg { 
             background-image: url("http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg");
         }
     </style>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/lightbox.min.js"></script>
+    
+    
 </head>
 <body>
     <div class="bg"></div>
@@ -32,7 +39,7 @@
             </div>
             <div class="col-md-7 col-sm-7  col-xs-5">
                 <h3 class="h5">
-                    Вест Хайлен Вайт терьер
+                    @yield('center_title')
                 </h3>
             </div>
             <div class="col-md-2 col-sm-2 col-xs-3">

@@ -10,9 +10,9 @@
 
     <li><i class="fa fa-check-square-o"></i> Вест Хайлен Вайт терьер</li>
     <ul class="list-unstyled">
-        <li><a href="/">Наши собаки</a></li>
-        <li><a href="/">Фотографии</a></li>
-        <li><a href="/">Щенки на продажу</a></li>
+        <li><a href="/west-highland-white-terrier/dogs">Наши собаки</a></li>
+        <li><a href="/west-highland-white-terrier/foto">Фотографии</a></li>
+        <li><a href="/west-highland-white-terrier/puppies">Щенки на продажу</a></li>
     </ul>
 
     <li><i class="fa fa-check-square-o"></i> Йоркширский терьер</li>

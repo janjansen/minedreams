@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('content')
-<h1 class="h2">Заголовок новер рас</h1>
+<h1 class="h2">FW</h1>
 @include('parts.blueimp')
 
 <div class="row">
@@ -14,5 +14,5 @@
 @stop
 
 @section('center_title')
-Питомник Mine Dreams
+Вест Хайленд Уайт Терьер
 @stop

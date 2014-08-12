@@ -35,3 +35,7 @@
 @section('center_title')
 Питомник Mine Dreams
 @stop
+
+@section('title')
+Карта проезда питомник Майн Дримс
+@stop

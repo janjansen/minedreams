@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'forge',
-			'username'  => 'forge',
-			'password'  => '',
+			'host'      => '127.0.0.1:13306',
+			'database'  => 'rsomkin_delta',
+			'username'  => 'rsomkin',
+			'password'  => '63QHgnFwv02PoELlRUf9',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

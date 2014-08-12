@@ -3,6 +3,7 @@
     ini_set("track_errors", 1);
     ini_set("html_errors", 1);
     error_reporting(E_ALL); 
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *

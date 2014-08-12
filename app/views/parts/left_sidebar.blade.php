@@ -17,16 +17,16 @@
 
     <li><i class="fa fa-check-square-o"></i> Йоркширский терьер</li>
     <ul class="list-unstyled">
-        <li><a href="/">Наши собаки</a></li>
-        <li><a href="/">Фотографии</a></li>
-        <li><a href="/">Щенки на продажу</a></li>
+        <li><a href="/yorkshire-terrier/dogs">Наши собаки</a></li>
+        <li><a href="/yorkshire-terrier/foto">Фотографии</a></li>
+        <li><a href="/yorkshire-terrier/puppies">Щенки на продажу</a></li>
     </ul>
 
     <li><i class="fa fa-check-square-o"></i> Керн терьер</li>
     <ul class="list-unstyled">
-        <li><a href="/">Наши собаки</a></li>
-        <li><a href="/">Фотографии</a></li>
-        <li><a href="/">Щенки на продажу</a></li>
+        <li><a href="/kern-terrier/dogs">Наши собаки</a></li>
+        <li><a href="/kern-terrier/foto">Фотографии</a></li>
+        <li><a href="/kern-terrier/puppies">Щенки на продажу</a></li>
     </ul>
     
 </ul>

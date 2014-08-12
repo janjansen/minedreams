@@ -3,29 +3,27 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Bootstrap 3 Template / Theme - Bootable</title>
-    <meta name="generator" content="Bootply" />
+    <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/lightbox.css" rel="stylesheet">
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <link href="/css/styles.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <style>
         .bg { 
             background-image: url("http://farm9.staticflickr.com/8222/8254861601_1fbf969a14_b.jpg");
         }
     </style>
     
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="/js/lightbox.min.js"></script>
-    
-    
 </head>
+
 <body>
     <div class="bg"></div>
     
@@ -65,6 +63,16 @@
                 @include('parts.right_sidebar')
             </div>
         </div>
+        
     </div>
+<!--    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    ajdasdakls
+                </div>
+            </div>
+        </div>
+    </div>-->
 </body>
 </html>

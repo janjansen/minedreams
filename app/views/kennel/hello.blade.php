@@ -2,15 +2,54 @@
 
 @section('content')
 <h1 class="h2">
-    Заголовок новер рас
+    Питомник "Майн Дримс"
 </h1>
 <div class="row">
     <div class="col-md-12">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+        <p>
+            Добро пожаловать на официальный сайт питомника "Майн Дримс" ( регистрационное свидетельство № 4928 от 02.04.02).
+            Больше 10 лет в нашем питомнике профилирующей породой является <b>Вест - Хайленд - Вайт терьер</b>. У этой породы много названий - Вестики, Весты, Вест-Хайленды, Уайт терьеры, Вест терьеры. "Снежинки с влюбленными глазами! " - так назвала Вестиков одна из владелиц нашей выпускницы.
+            Для нас Вест-Хайденд идеальная собака для дома, как для семьи с детьми, так и для молодежи, и для людей старшего возраста. Очаровательная мордочка, выглядящая, как цветок белой хризантемы, белоснежная праздничная шерсть,небольшой размер, веселый и дружелюбный характер, делают Вестов одними из самых популярных собак в мире.
+            Не будем умалять достоинств представителей наших двух других терьеров в питомнике, Керн терьера и Йоркшира, таких же активных и дружелюбных, у них несколько иная аудитория.
+        </p>
+        <p>
+            <b>Керн терьер</b> - великолепно подойдет в семью с детьми, где дети найдут в лице собаки друга и компаньона в активных играх. Керн нуждается в нагрузке мозгов, это думающий, находчивый и очень шаловливый терьер!
+        </p>
+        <p>
+            <b>Йоркширские терьеры</b> все же требуют более аккуратного обращения, мы рекомендуем этих собачек для Ваших родителей, в дом, где детки уже выросли старше 7-10 лет.
+        </p>
+        <p>
+            Наш сайт создан для того, чтобы Вы смогли поближе познакомиться со всеми тремя породами английских терьеров, которых объединяет отсутствие линьки, небольшой размер, активная жизненная позиция и дружелюбный характер. И, конечно, будем рады представить Вам наших терьеров!
+            Здесь Вы найдете информацию о каждой нашей собаке и ее происхождении. Путешествуя по нашему сайту, Вы сможете <b>выбрать и забронировать себе щенка</b> из имеющихся пометов. Все рожденные в нашем питомнике щенки, содержатся в домашних условиях, полностью социализированы, обеспечены качественными кормами и вакцинами. Мы тщательно подходим к подбору владельцев для наших щенков.
+        </p>
+        <p><b>Всех наших выпускников мы курируем и консультируем на протяжении всей их жизни. Помогаем владельцам в уходе за питомцем, предоставляем возможность приобретения кормов со скидками питомника и даем возможность консультироваться у проверенных ветеринарных врачей.</b>
+            А если Вы уже являетесь счастливым обладателем одного из представителей этих терьеров, то сможете <b>воспользоваться услугами грумера</b>, или <b>выбрать кобеля-производителя для вязки</b>.
+        </p>
+        <p>
+            Наша фотогалерея разделена для удобства, по породам и содержит фото наших собак и щенков за разные годы.
+            Информация  в подразделе "Щенки" поможет Вам выбрать своего будущего любимца.
+            Мы никогда не стремилась получить большое количество щенков. Все комбинации родительских пар тщательно продуманы. В основном питомник занимается линейным разведением.
+            Девиз питомника, исходя не только из названия, но и из политики : <b>"Мы идем медленно, но только вперед!"</b>.
+        </p>
+        <p>
+            Чтобы извлечь из рудника драгоценный камень, нужна кропотливая и не спешная работа.
+            Мы никогда не гнались за количеством, но всегда стремились к лучшему качеству.
+            Всем, кто профессионально занимается собаководством, известно, что очень сложно предугадать выставочную и племенную карьеру даже лучших пометов, рождение которых мы так тщательно планируем и ожидаем с нетерпением.
+            Мало кого из владельцев увлекает выставочная карьера и разведение собак. 
+            Нередко случается, что из помета выставляют одна- две, а бывает, что весь помет никак не проявляет себя на выставках и выбывает из племенного разведения. Суки щенятся один раз за всю свою жизнь, а иногда и ни одного. Такое происходит часто потому, что кроме собаки, даже очень любимой, люди имеют много других дел, семью, разнообразные увлечения. Но для некоторых собаководов воспитание четвероногого друга, его выставочная карьера становится и работой, и увлечением. И мы очень благодарны всем владельцам наших щенков, которые не побоялись конкуренции и выставляют наших выпускников!
+        </p>
+        <p class="lead">
+            Приятного Вам просмотра!
+        </p>
     </div>
 </div>
+@stop
+
+
+@section('center_title')
+Питомник Mine Dreams
+@stop
+
+@section('title')
+Майн Дримс - питомник Вест Хайленд Вайт терьеров, Йоркширских терьеров, Керн терьеров
 @stop

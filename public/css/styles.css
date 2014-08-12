@@ -58,6 +58,7 @@ body {
   font-weight:300;
   color:#676767;
   background-color:#efefef;
+  margin-bottom: 70px;
 }
 
 .accordion-group {
@@ -263,3 +264,10 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+/*.footer {
+    background-color: #555555;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}*/

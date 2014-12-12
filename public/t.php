@@ -1,2 +1,0 @@
-<?php
-throw new Exeption();

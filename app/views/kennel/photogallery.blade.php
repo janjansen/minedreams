@@ -1,21 +1,46 @@
 @extends('layout.main')
 
+@section('page_header')
+@stop
+
+@section('meta_description')
+@stop
+
+@section('meta_keywords')
+@stop
+
 @section('content')
-<h1 class="h2">Заголовок новер рас</h1>
-@include('parts.blueimp')
-
-<div class="row">
-    <div class="col-md-12">
-        <a href="//placehold.it/500x500" title="Banana" data-gallery>
-            <img src="http://farm6.static.flickr.com/5567/14732777892_71f5b96d8c_s.jpg" alt="Banana" width="100" height="100">
-        </a>
+<h1 class="title">Фотографии собак из питомника Майн Дримс</h1>
+<div class="line"></div>
+<!-- Begin Portfolio -->
+<div id="portfolio">
+    <ul id="filtering-nav">
+        <li class="show">Фильтр:</li>
+        <li><a class="all" href="#all">Все</a></li>
+        <li><a class="web" href="#whwt">Вест Хайленд Вайт терьер</a></li>
+        <li><a class="photo" href="#york">Йоркширские терьеры</a></li>
+        <li><a class="video" href="#kern">Керн терьер</a></li>
+    </ul>
+    <div class="clear"></div>
+    <div class="items">
+        <div class="box col4 video">
+            <div class="image">
+                <a href="http://vimeo.com/2370018" rel="prettyPhoto[portfolio1]" title="Caption">
+                    <span class="overlay play"></span>
+                    <img src="style/images/art/p13.jpg" alt="" />
+                </a>
+            </div>
+        </div>
+        <div class="box col4 web">
+            <div class="image">
+                <a href="style/images/art/p1-full.jpg" rel="prettyPhoto[portfolio]" title="Caption">
+                    <span class="overlay zoom"></span>
+                    <img src="style/images/art/p12.jpg" alt="" />
+                </a>
+            </div>
+        </div>
     </div>
+    <!-- .wrap --> 
 </div>
-@stop
-
-@section('center_title')
-Питомник Mine Dreams
-@stop
-
-@section('title')
+<!-- End Portfolio -->
 @stop

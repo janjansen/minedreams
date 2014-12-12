@@ -1,41 +1,51 @@
 @extends('layout.main')
 
+@section('page_header')
+контакты - питомник Майн Дримс
+@stop
+
+@section('meta_description')
+@stop
+
+@section('meta_keywords')
+@stop
+
 @section('content')
-<h1 class="h2">Карта проезда</h1>
-<br>
-<div class="row">
-    <div class="col-md-offset-1 col-md-2">
-        <img src="//placehold.it/100x100" class="img-responsive img-circle">
-    </div>
-    <div class="col-md-3">
-        
-        <address>
-            <b>Барабадзе Елена</b><br>
-            г.Москва,ул.Плещеева, д.19, кв.4
-        </address>
-    </div>
-    <div class="col-md-2">
-        <img src="//placehold.it/100x100" class="img-responsive img-circle">
-    </div>
-    <div class="col-md-3">
-        <address>
-            <b>Сомкина Ирина</b><br>
-            г.Москва,ул.Плещеева, д.22А, кв. 197
-        </address>
-    </div>
+<h1 class="title">Карта проезда</h1>
+<div class="line"></div>
+<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=Qyq1dvUovVVcgBp08G4A-bUH9OMsIldl&width=700&height=350"></script>
+<br><br>
+<h3>Отправьте нам сообщение</h3>
+<div class="line"></div>
+<!-- Begin Form -->
+<div class="form-container">
+    <form class="forms" action="/contact" method="post">
+        <fieldset>
+            <ol>
+                <li class="form-row text-input-row">
+                    <label>Имя</label>
+                    <input type="text" name="name" value="" class="text-input" title="" />
+                </li>
+                <li class="form-row text-input-row">
+                    <label>Email\Телефон</label>
+                    <input type="text" name="email" value="" oninvalid="this.setCustomValidity('Пожалуйста, укажите способ обратной связи')" required class="text-input required email" title="" />
+                </li>
+                <li class="form-row text-area-row">
+                    <label>Сообщение</label>
+                    <textarea name="message" class="text-area required"></textarea>
+                </li>
+                    <li class="form-row hidden-row">
+                    <input type="hidden" name="hidden" value="" />
+                </li>
+                <li class="button-row">
+                    <input type="submit" value="Отправить" name="submit" class="btn-submit" />
+                </li>
+            </ol>
+        <input type="hidden" name="v_error" id="v-error" value="Required" />
+        <input type="hidden" name="v_email" id="v-email" value="Enter a valid email" />
+        </fieldset>
+    </form>
+    <div class="response"></div>
 </div>
-<br>
-<div class="row">
-    <div class="col-md-10 col-md-offset-1 text-center">
-        <img class="img-responsive" src="//api-maps.yandex.ru/services/constructor/1.0/static/?sid=elrJOoTM_qOWzpTTYfXnhViEMGJinhKX&width=600&height=400" alt="карта проезда"/>
-    </div>
-</div>
-@stop
-
-@section('center_title')
-Питомник Mine Dreams
-@stop
-
-@section('title')
-Карта проезда питомник Майн Дримс
+<!-- End Form -->
 @stop

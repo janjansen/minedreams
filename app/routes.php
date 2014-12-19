@@ -55,3 +55,5 @@ Route::get('/yorkshire-terrier', function()
     ];
 	return View::make('kennel.dogs', $params);
 });
+
+Route::post('/send_feedback', 'ServiceController@sendFeedback');
